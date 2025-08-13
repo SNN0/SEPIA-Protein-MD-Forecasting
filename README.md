@@ -20,6 +20,7 @@ This is a developing project and is actively being worked on. The current versio
 
 The codebase is organized into a modular structure to separate concerns and improve maintainability.
 
+```
 SEPIA/
 ├── core/
 │   ├── dataset.py      # Data loading and batching logic.
@@ -37,6 +38,7 @@ SEPIA/
 │   └── ...             # Directory for trained model weights.
 └── analysis_results/
 └── ...             # Directory for analysis outputs.
+```
 
 ### Quick Start Guide
 
