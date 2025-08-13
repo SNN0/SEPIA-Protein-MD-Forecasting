@@ -1,6 +1,6 @@
 # SEPIA: A Developing Project for Molecular Dynamics Trajectory Forecasting
 
-SEPIA is a work-in-progress project for predicting molecular dynamics (MD) trajectories using a Graph Neural Network (GNN). The project provides a full pipeline to extract structural features from MD simulations, train a predictive model, forecast future frames, and analyze the results.
+SEPIA is a work-in-progress project for predicting molecular dynamics (MD) trajectories using a GraphRNN model that combines a Graph Convolutional Network (GCN) with a Gated Recurrent Unit (GRU). The project provides a full pipeline to extract structural features from MD simulations, train a predictive model, forecast future frames, and analyze the results.
 
 ### Project Status
 
