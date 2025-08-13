@@ -1,0 +1,21 @@
+# Ignore common Python build/distribution files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environment directories
+.venv/
+env/
+
+# Ignore project-specific output directories
+# These directories contain large binary files (e.g., .pkl, .pth, .dcd)
+# that are not suitable for version control.
+data/
+models/
+analysis_results/
+
+# Ignore IDE files (e.g., VS Code)
+.vscode/
+
+# Ignore Mdtraj specific output
+medoid_ref.pdb
